@@ -1,0 +1,64 @@
+.health {
+	background-image: url('health-bg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	align-items: center;
+	display: flex;
+	height: 100%;
+	width: 100%;
+	justify-content: flex-end;
+	color: black;
+}
+.exp {
+	height: 100%;
+	background-image: url('exp-bar.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	align-items: center;
+	display: flex;
+	justify-content: flex-end;
+	color: black;
+}
+.level {
+	height: 100%;
+	width: 100%;
+	background-image: url('level-bg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	align-items: center;
+	display: flex;
+	justify-content: flex-end;
+	color: black;
+}
+.health-bg,
+.exp-bg,
+.level-bg {
+	height: 100%;
+	width: 100%;
+}
+.health-bg {
+	background-color: red;
+}
+.level-bg {
+	background-color: green;
+}
+.exp-bg {
+	background-color: gold;
+}
+.status-bar-text {
+	padding-right: 10px;
+	font-size: 14px;
+}
+
+@media only screen and (min-width: 600px) {
+	.health-bg,
+	.exp-bg,
+	.level-bg,
+	.level,
+	.exp,
+	.health {
+		width: 600px;
+		height: 75px;
+		font-size: 20px;
+	}
+}

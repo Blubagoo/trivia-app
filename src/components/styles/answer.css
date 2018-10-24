@@ -1,0 +1,19 @@
+.answer {
+	display: flex;
+	align-items: center;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	color: white;
+}
+.answers {
+	display: flex;
+	flex-direction: column;
+justify-content: flex-start;
+}
+.answer p {
+	margin: 0;
+	padding: 0;
+}

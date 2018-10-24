@@ -1,0 +1,16 @@
+.header {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	background-color: gold;
+	color: black;
+}
+.banner {
+	font-size: 18px;
+}
+.img {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 50px;
+}
